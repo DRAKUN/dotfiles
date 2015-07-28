@@ -34,3 +34,14 @@ bindkey '^[OB' history-substring-search-down
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export RBENV_ROOT="${HOME}/.rbenv"
+export PATH="${RBENV_ROOT}/bin:${PATH}"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export BUNDLER_EDITOR="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"

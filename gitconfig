@@ -14,8 +14,8 @@
 	editor = '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
-  co = checkout
-  st = status -sb
+	co = checkout
+	st = status
   br = branch
   ci = commit
   fo = fetch origin
@@ -37,6 +37,7 @@
 
   # Removes a file from the index
   unstage = reset HEAD --
+	cmm = commit
 
 [help]
   autocorrect = 1
@@ -48,4 +49,4 @@
   mergeoptions = --no-edit
 [user]
 	email = dj-tung@hotmail.com
-	name = drakun corp
+	name = DRAKUN CORP
