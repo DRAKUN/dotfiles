@@ -49,3 +49,4 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text 2.app/Contents/SharedSupport/
 eval "$(rbenv init -)"
 export BUNDLER_EDITOR="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
 export BUNDLER_EDITOR="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
+export BUNDLER_EDITOR="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
